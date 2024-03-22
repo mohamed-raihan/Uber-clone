@@ -1,0 +1,109 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+image{
+    max-width: 100%;
+    max-height: 100%;
+}
+.bg-image{
+    background-image: url('https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1899,h_805/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png');
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    
+}
+.land-img{
+    background-image: url('https://imgs.search.brave.com/NH4z9CfSc0w1lAYeI3i4Ktv6rbsyTcZFW3hk2cUQ0rk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jaXR5c2NhcGUt/YmFja2dyb3VuZF8x/NDA5LTQwMDguanBn/P3NpemU9NjI2JmV4/dD1qcGc');
+    width: 100%;
+    height: 40vh;
+    background-size:cover;
+    background-position:inherit;
+    position: relative;
+}
+.land-cont{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.aa,.aaa{
+    text-decoration: none;
+    
+  }
+  .aa,.aaa {
+    position: relative;
+    color: rgb(87, 87, 88);
+    
+  }
+  
+  .aa::after {
+    content: "";
+    /* display: block;   */
+    position: absolute;
+    bottom: -7px; /* Adjust this value to set the gap between text and underline */
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(195, 189, 189); /* Set the color of the underline */
+  }
+  .aaa::after{
+    content: "";
+    /* display: block;   */
+    position: absolute;
+    bottom: -30px; /* Adjust this value to set the gap between text and underline */
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(195, 189, 189); /* Set the color of the underline */
+  }
+
+/* a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }*/
+  
+  .aa:hover::after {
+    transition: transform 0.25s ease-out;
+    transform-origin: bottom right;
+    transform-origin: bottom left;
+    transform: scaleX(1);
+
+    background-color: rgb(7, 6, 6);
+  }  
+  .aaa:hover::after{
+    transition: transform 0.25s ease-out;
+    transform-origin: bottom right;
+    transform-origin: bottom left;
+    transform: scaleX(1);
+
+    background-color: rgb(7, 6, 6);
+  }
+  ul a{
+    text-decoration: none;
+    color: white;
+  }
+  ul li{
+    margin-top: 20px;
+    font-weight: 300;
+  }
+  .itag i{
+    margin: 20px 80px 50px 30px;
+  }
+  .itag a{
+    list-style-type: none;
+    color: white;
+  }
+  .lang a{
+    text-decoration: none;
+    color: white;
+  }
